@@ -1,3 +1,5 @@
+![Antena 1 — logo branco sobre fundo laranja](assets/antena1-laranja.png)
+
 # Paulo Gurgel
 
 Faço projetos com ESP32, áudio e automação. A maior parte do código por aqui está em C, C++ e Python. Também tem um site que fiz para o Iranildo.
