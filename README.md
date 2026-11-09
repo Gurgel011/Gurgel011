@@ -1,62 +1,20 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Paulo Gurgel — firmware, voz e hardware" width="100%" />
-</p>
+# Paulo Gurgel
 
-<p align="center">
-  <strong>Software que ganha voz, tela e vida fora do computador.</strong>
-</p>
-
-<p align="center">
-  <a href="#projetos">Projetos</a> ·
-  <a href="#tecnologias">Tecnologias</a> ·
-  <a href="#por-onde-começar">Por onde começar</a>
-</p>
-
-## Olá, eu sou o Paulo 👋
-
-Desenvolvo projetos com **ESP32, assistentes de voz locais e interfaces para dispositivos**. Gosto de conectar firmware, áudio e automação — do protocolo serial à experiência na tela. Também construo experiências para a web.
+Faço projetos com ESP32, áudio e automação. A maior parte do código por aqui está em C, C++ e Python. Também tem um site que fiz para o Iranildo.
 
 ## Projetos
 
-### Voz e inteligência artificial local
+### Antena 1
 
-| Projeto | O que você encontra |
-| :--- | :--- |
-| **[Antena 1 · Assistente de voz](https://github.com/Gurgel011/antena1-voice-assistant)** | Firmware customizado a partir do **xiaozhi-esp32**, com servidor local em Python: **Whisper → Ollama → Piper**. [Guia de configuração](https://github.com/Gurgel011/antena1-voice-assistant/blob/main/ANTENA1_SETUP.md). |
-| **[Voice PE · Firmware em português](https://github.com/Gurgel011/paulo-voice-pe-firmware)** | Firmware próprio para o hardware Home Assistant Voice PE, com API HTTP, botão e dial. **Protótipo em evolução**, com integração de áudio prevista nas próximas etapas. |
+- [Rádio com tela AMOLED](https://github.com/Gurgel011/antena1-fullscreen-os) — toca a Antena 1 direto no ESP32-S3, com interface em LVGL, volume e status de conexão.
+- [Assistente de voz local](https://github.com/Gurgel011/antena1-voice-assistant) — adaptação do xiaozhi-esp32 com Whisper, Ollama e Piper rodando no servidor local. O passo a passo está no [guia de configuração](https://github.com/Gurgel011/antena1-voice-assistant/blob/main/ANTENA1_SETUP.md).
 
-### Firmware e interfaces
+### Hardware e laboratório
 
-| Projeto | O que você encontra |
-| :--- | :--- |
-| **[Antena 1 · Fullscreen OS](https://github.com/Gurgel011/antena1-fullscreen-os)** | Rádio ao vivo no **ESP32-S3**, interface **LVGL 9** em tela AMOLED, rosto animado e indicadores de conexão e volume. |
-| **[PhotoPainter · ESP32-S3](https://github.com/Gurgel011/esp32-s3-photopainter-paulo)** | Base independente em **ESP-IDF** para o PhotoPainter da Waveshare. Projeto em etapas para explorar tela, conectividade e áudio. |
+- [Botão Lab](https://github.com/Gurgel011/botao-lab) — scripts para capturar dados da serial, mapear o touch e ligar os controles físicos a ações no computador.
+- [Voice PE](https://github.com/Gurgel011/paulo-voice-pe-firmware) — firmware próprio em português para o hardware Home Assistant Voice PE. A API HTTP já está disponível; a integração de áudio ainda está em desenvolvimento.
+- [PhotoPainter](https://github.com/Gurgel011/esp32-s3-photopainter-paulo) — base em ESP-IDF para explorar a tela e os recursos do aparelho da Waveshare. Ainda em construção.
 
-### Laboratório e web
+### Web
 
-| Projeto | O que você encontra |
-| :--- | :--- |
-| **[Botão Lab](https://github.com/Gurgel011/botao-lab)** | Ferramentas em **Python** para captura e análise de **UART**, calibração de touch e automações com controles físicos. |
-| **[Iranildo · Site pessoal](https://github.com/Gurgel011/iranildo-site)** | Site sobre a trajetória do zagueiro Iranildo, com carreira, títulos, vídeos e galeria. **Vite, JavaScript, CSS e Anime.js**. |
-
-## Tecnologias
-
-| Área | Ferramentas |
-| :--- | :--- |
-| **Embarcados** | ESP32-S3 · ESP-IDF · C · C++ · LVGL |
-| **Voz e IA local** | Python · Whisper · Ollama · Piper |
-| **Integrações** | UART · I²C · I²S · HTTP · WebSocket |
-| **Web** | HTML · CSS · JavaScript · Vite · Anime.js |
-
-## Por onde começar
-
-- **Quero explorar voz local:** [configuração da Antena 1](https://github.com/Gurgel011/antena1-voice-assistant/blob/main/ANTENA1_SETUP.md).
-- **Quero ver firmware com interface:** [Antena 1 Fullscreen OS](https://github.com/Gurgel011/antena1-fullscreen-os#readme).
-- **Quero investigar um dispositivo:** [captura e análise no Botão Lab](https://github.com/Gurgel011/botao-lab#readme).
-- **Quero conhecer o projeto web:** [Site do Iranildo](https://github.com/Gurgel011/iranildo-site#readme).
-
----
-
-<p align="center">
-  <sub>Explore os READMEs para ver hardware, configuração e o estágio de cada projeto.</sub>
-</p>
+- [Site do Iranildo](https://github.com/Gurgel011/iranildo-site) — carreira, títulos, vídeos e fotos do zagueiro Iranildo Santos. Feito com Vite, JavaScript e CSS.
