@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Paulo Gurgel</title>
+  <desc id="description">Firmware, voz e hardware. Fundo azul escuro com circuito e onda de áudio em verde.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1422"/>
+      <stop offset="1" stop-color="#152B35"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#B9D8DA" fill-opacity=".12"/>
+    </pattern>
+    <linearGradient id="trace" x1="820" y1="80" x2="1190" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70E8C4"/>
+      <stop offset="1" stop-color="#59ABC7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="20" fill="url(#background)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="19" stroke="#B0D9DE" stroke-opacity=".12"/>
+  <rect x="768" y="32" width="480" height="296" fill="url(#grid)"/>
+  <path d="M56 54H105" stroke="#70E8C4" stroke-width="4"/>
+  <text x="120" y="60" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="3">GURGEL011 / LAB</text>
+  <text x="52" y="156" fill="#F1F6FB" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800" letter-spacing="-2">PAULO GURGEL</text>
+  <text x="56" y="208" fill="#70E8C4" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="4">FIRMWARE · VOZ · HARDWARE</text>
+  <text x="56" y="250" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="19">Da ideia ao dispositivo.</text>
+  <path d="M56 294H714" stroke="#AABFCF" stroke-opacity=".2"/>
+  <text x="56" y="322" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">ESP32-S3</text>
+  <circle cx="180" cy="317" r="2" fill="#70E8C4"/>
+  <text x="198" y="322" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">ESP-IDF</text>
+  <circle cx="304" cy="317" r="2" fill="#70E8C4"/>
+  <text x="322" y="322" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">PYTHON</text>
+  <circle cx="426" cy="317" r="2" fill="#70E8C4"/>
+  <text x="444" y="322" fill="#AABFCF" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">IA LOCAL</text>
+  <g stroke="url(#trace)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M822 100H900L932 132M838 260H892L932 220M1076 132L1116 92H1190M1076 220L1118 262H1194" opacity=".6"/>
+    <path d="M1004 80V112M980 92V112M1028 92V112M1004 240V274M980 240V260M1028 240V260M900 176H932M1076 176H1110"/>
+    <rect x="932" y="112" width="144" height="128" rx="16" fill="#102733"/>
+    <rect x="944" y="124" width="120" height="104" rx="9" stroke-opacity=".28"/>
+    <path d="M960 176H972L980 160L990 194L1002 148L1014 204L1026 166L1034 176H1048" stroke-width="3"/>
+    <circle cx="822" cy="100" r="5" fill="#142934"/>
+    <circle cx="838" cy="260" r="5" fill="#142934"/>
+    <circle cx="1190" cy="92" r="5" fill="#142934"/>
+    <circle cx="1194" cy="262" r="5" fill="#142934"/>
+  </g>
+  <text x="954" y="313" fill="#86AEB9" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">BUILD. TEST. REPEAT.</text>
+</svg>
